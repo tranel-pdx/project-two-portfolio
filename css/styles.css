@@ -58,6 +58,7 @@ h2 {
 	font-size: calc(1rem + 3vw);
 }
 
+/*contact-svg*/
 svg {
   width: 70vh;
   height: 70vh;
@@ -67,10 +68,10 @@ svg:hover {
   fill: red;
 }
 
+/*classyshiiii*/
 .photo-p1 {
 	padding: 30px;
 }
-
 
 /*navigation*/
 .sidebar {
