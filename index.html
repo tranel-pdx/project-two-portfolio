@@ -7,17 +7,13 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/styles.css">
-
-<link href="https://fonts.googleapis.com/css?family=Grenze:200,400,700&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css?family=Grenze:200,400,700&display=swap" rel="stylesheet">
   <title>Elle Tran</title>
 </head>
-
 <body>
 
-<!-- Global navigation stuff here-->
-<!-- how do I turn this into icons and do mouseover? span? change class?-->
-
+<!--NAVIGATION-->
+<!--note* should I turn this into icons and do mouseover? span? change class?-->
   <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
     <a href="#home">home</a>
     <a href="#project-1">1. project</a>
@@ -29,53 +25,71 @@
 </div>
 
 
-
-
 <!-- content content content-->
-
   <div class="slider">
 
-	  <section id="home">
-		  <h1>home</h1>
+  <!--HOME-->
+	  <section class="home" id="home">
+      <p>Erase the impossible</p>
   	</section>
 
-	  <section id="project-1">
+  <!--PROJECT1-->
+	  <section class="project-1" id="project-1">
 		  <h1>Project 1</h1>
   	</section>
 
-    <section id="project-2">
+  <!--PROJECT2-->
+    <section class="project-2" id="project-2">
 		  <h1>Project 2</h1>
 	  </section>
 
-	  <section id="project-3">
+  <!--PROJECT3-->
+	  <section class="project-3" id="project-3">
 		  <h1>Project 3</h1>
   	</section>
 
-    <section id="project-4">
+  <!--PROJECT4-->
+    <section class="project-4" id="project-4">
       <h1>Project 4</h1>
     </section>
 
-    <section id="project-5">
+  <!--PROJECT5-->
+    <section class="project-5" id="project-5">
       <h1>Project 5</h1>
     </section>
 
+  <!--CONTACT-->
 	  <section id="contact">
 		  <h1>Contact</h1>
+      <a href="mailto:someone@example.com?Subject=Hey%20there">Clickity Clickity</a>
+      <div id="gx">
+          <svg id="gx-logo" class="tronFilter" data-name="gx-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1095.45 1306.43">
+          <polygon points="548.47 637.22 1095.45 0 918.95 0 547.72 455.56 176.49 0 0 0 546.97 637.22 546.97 638.97 547.72 638.09 548.47 638.97 548.47 637.22"/>
+          <polygon points="548.47 669.22 1095.45 1306.43 918.95 1306.43 547.72 850.88 176.49 1306.43 0 1306.43 546.97 669.22 546.97 667.47 547.72 668.34 548.47 667.47 548.47 669.22"/>
+    </svg>
+
+      </div>
   	</section>
+
 </div>
 
+<!--FOOTER-->
 <footer>
-  <!-- footer content here -->
   &copy; Team Awesome
 </footer>
 
-<!-- link for jquery -->
+<!--JQUERY-->
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
-  <!-- link for your script file -->
+
+  <script src="js/p5.js"></script>
+  <script src="js/p5.sound.js"></script>
+  <script src="js/sketch.js"></script>
+
+<!--LINK TO SCRIPT FILE-->
   <script src="js/script.js"></script>
 
 </body>

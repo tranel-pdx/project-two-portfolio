@@ -3,9 +3,16 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	overflow-y: hidden;
 }
+
+.home {
+  background-color: blue;
+}
+
+
 .slider {
 	font-family: 'Grenze';
 	scroll-snap-type: x mandatory;
@@ -22,7 +29,8 @@ section {
 	text-align: center;
 	position: relative;
 }
-h1	{
+
+p	{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -31,6 +39,15 @@ h1	{
 	width: 100%;
 	left: 0;
 	font-size: calc(1rem + 3vw);
+}
+
+h1	{
+	top: 5%;
+	text-align: center;
+	color: black;
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 2vw);
 }
 
 /*navigation*/
