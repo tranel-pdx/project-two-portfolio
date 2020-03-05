@@ -31,14 +31,11 @@ section {
 }
 
 p	{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	text-align: left;
 	color: black;
-	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 3vw);
+	font-size: 16px;
 }
 
 h1	{
@@ -48,6 +45,20 @@ h1	{
 	width: 100%;
 	left: 0;
 	font-size: calc(1rem + 2vw);
+}
+
+h2 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: black;
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 3vw);
+}
+.photo-p1 {
+	padding: 30px;
 }
 
 /*navigation*/
