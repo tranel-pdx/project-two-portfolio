@@ -57,9 +57,20 @@ h2 {
 	left: 0;
 	font-size: calc(1rem + 3vw);
 }
+
+svg {
+  width: 70vh;
+  height: 70vh;
+	padding-top: 10%;
+}
+svg:hover {
+  fill: red;
+}
+
 .photo-p1 {
 	padding: 30px;
 }
+
 
 /*navigation*/
 .sidebar {
