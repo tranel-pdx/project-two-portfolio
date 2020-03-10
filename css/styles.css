@@ -9,7 +9,6 @@ body {
 }
 
 section {
-	border-right: 5% solid white;
 	padding: 5%;
 	min-width: 100vw;
 	height: 100vh;
@@ -27,8 +26,8 @@ p	{
 }
 
 h1	{
-	padding-top:0;
-	padding-left: 5%;
+	padding-top:5vh;
+	padding-left: 10vh;
 	text-align: left;
 	color: black;
 	width: 100%;
@@ -50,8 +49,8 @@ h2 {
 
 /*slide images*/
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 100vh;
+  height: 70vh;
   overflow: hidden;
 }
 .middle{
@@ -130,18 +129,18 @@ input[name="r"]{
 
 /*contact-svg*/
 svg {
-  width: 70vh;
-  height: 70vh;
-	padding-top: 10%;
+  width: 45%;
+  height: 45%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 svg:hover {
   fill: red;
 }
 
 /*project-specific*/
-.photo-p1 {
-	padding: 10px;
-}
 
 .project-2 {
 	background-color: #FFE3B8;
@@ -158,6 +157,7 @@ svg:hover {
 }
 
 .contact {
+	background-color: #171a22;
 }
 
 /*vertical navigation*/
@@ -196,3 +196,16 @@ svg:hover {
     font-size: 16px;
   }
 }
+
+/*mobile-test
+@media only screen and (max-width:1024px){
+	.para1 {
+	margin=left: 320px;
+	}
+	.lamp {
+	margin-top:-610px;
+}
+
+}
+
+test*/
