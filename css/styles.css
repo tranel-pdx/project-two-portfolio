@@ -62,6 +62,7 @@ h2 {
   transform: translateX(-50%);
   display: flex;
 }
+
 .bar{
   width: 50px;
   height: 10px;
