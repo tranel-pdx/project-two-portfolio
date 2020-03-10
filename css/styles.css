@@ -13,26 +13,22 @@ section {
 	min-width: 100vw;
 	height: 100vh;
 	scroll-snap-align: start;
-	text-align: center;
 	position: relative;
 }
 
 p	{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding:5%;
 	text-align: left;
 	color: black;
 	font-size: 16px;
 }
 
 h1	{
-	padding-top:5vh;
-	padding-left: 10vh;
+	padding-left: 5vh;
 	text-align: left;
 	color: black;
-	width: 100%;
-	left: 0;
 	font-size: calc(20px + 2vw);
+	position: inherit;
 }
 
 h2 {
@@ -188,7 +184,7 @@ svg:hover {
 }
 
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-height: 450px) {
   .sidebar {
     padding-top: 15px;
   }
