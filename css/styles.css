@@ -8,7 +8,47 @@ body {
 	overflow-y: hidden;
 }
 
-/*TEST*/
+section {
+	border-right: 5% solid white;
+	padding: 5%;
+	min-width: 100vw;
+	height: 100vh;
+	scroll-snap-align: start;
+	text-align: center;
+	position: relative;
+}
+
+p	{
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: left;
+	color: black;
+	font-size: 16px;
+}
+
+h1	{
+	padding-top:0;
+	padding-left: 5%;
+	text-align: left;
+	color: black;
+	width: 100%;
+	left: 0;
+	font-size: calc(20px + 2vw);
+}
+
+h2 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: black;
+	width: 100%;
+	left: 0;
+	font-size: calc(1rem + 3vw);
+}
+
+
+/*slide images*/
 .slidershow{
   width: 700px;
   height: 400px;
@@ -30,7 +70,7 @@ body {
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
@@ -74,8 +114,8 @@ input[name="r"]{
 #r5:checked ~ .s1{
   margin-left: -80%;
 }
-/*TEST*/
 
+/*HORIZONTAL SCROLLY SCROLL*/
 .home {
   background-color: blue;
 }
@@ -86,43 +126,6 @@ input[name="r"]{
 	display: flex;
 	-webkit-overflow-scrolling: touch;
 	overflow-x: scroll;
-}
-section {
-	border-right: 1px solid white;
-	padding: 1rem;
-	min-width: 100vw;
-	height: 100vh;
-	scroll-snap-align: start;
-	text-align: center;
-	position: relative;
-}
-
-p	{
-	padding-left: 4rem;
-	padding-right: 4rem;
-	text-align: left;
-	color: black;
-	font-size: 16px;
-}
-
-h1	{
-	top: 5%;
-	text-align: center;
-	color: black;
-	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 2vw);
-}
-
-h2 {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: black;
-	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 3vw);
 }
 
 /*contact-svg*/
@@ -135,9 +138,9 @@ svg:hover {
   fill: red;
 }
 
-/*classyshiiii*/
+/*project-specific*/
 .photo-p1 {
-	padding: 30px;
+	padding: 10px;
 }
 
 .project-2 {
@@ -157,7 +160,7 @@ svg:hover {
 .contact {
 }
 
-/*navigation*/
+/*vertical navigation*/
 .sidebar {
   height: 100%;
 	padding-left:3%;
@@ -192,88 +195,4 @@ svg:hover {
   .sidebar a {
     font-size: 16px;
   }
-}
-
-/*TESTTESTTEST*/
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
 }
