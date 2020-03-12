@@ -24,8 +24,8 @@ p	{
 }
 
 h1	{
-	padding-left: 5vh;
-	text-align: left;
+	padding-bottom: 5%;
+	text-align: center;
 	color: black;
 	font-size: calc(20px + 2vw);
 	position: inherit;
@@ -222,9 +222,6 @@ svg:hover {
 .project-4 {
 }
 
-.project-5 {
-}
-
 .contact {
 	background-color: #171a22;
 }
@@ -247,7 +244,7 @@ svg:hover {
 	color: #d3d3d3;
 	font-family: 'Grenze';
 	font-weight: 100;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .sidebar a:hover {
